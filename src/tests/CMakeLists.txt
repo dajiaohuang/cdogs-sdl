@@ -10,7 +10,7 @@ endif()
 add_subdirectory(cbehave)
 
 add_executable(command_line_test
-	command_line_bool_test.c
+	command_line_test.c
 	../command_line.c)
 target_link_libraries(command_line_test
 	cbehave
